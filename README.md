@@ -23,11 +23,11 @@ Changes (from memory, may not be 100% accurate):
 
 
 
-Any inputs you want to use should be stored as .txt files in the inputs directory
+Any inputs you want to use should be stored as .txt files in an "inputs" directory, itself stored in the root folder
 
-models and logs are empty folders that will contain the outputs from the gpt_R_w_toks script
+"models" and "logs" directories can be created to contain the outputs from the gpt_R_w_toks script. otherwise, these will be created automatically at run-time
 
-generations contains the outputs from generator.py
+"generations" directory can be created to contain the outputs from the generator.py. otherwise, this will be created automatically at run-time
 
 -----
 
