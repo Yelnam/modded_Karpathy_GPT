@@ -1,0 +1,13 @@
+**/__pycache__/
+*.pyc
+babylm_data/
+generations/*
+!generations/.gitkeep
+logs/*
+!logs/.gitkeep
+models/*
+!models/.gitkeep
+inputs/*
+!inputs/.gitkeep
+outputs/
+gpt_R.py

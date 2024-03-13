@@ -1,3 +1,43 @@
+Heavily modified version of Karpathy's mini GPT, as per the notes below. This is pretty poorly documented, as I neglected to document changes as I was making them
+
+main file is now gpt_R_w_toks (GPT, my initial, with tokenisation)
+
+Still does not initialise properly, as I've not made any changes to K's original script in that regard, though I have made several other changes.
+
+
+
+Changes (from memory, may not be 100% accurate):
+
+1 Added byte-encoder and decoder for tekenization
+     (This, from memory, is similar to something constructed by Karpathy during the lesson, but not the same as what he saved on his github)
+
+2 Now saves model to mdels directory at end of each training run
+
+3 Saves vocab, merges and encoded text for quick use in future training runs
+
+4 Saves hyperparams for use in future training/inference
+
+5 New generator.py file can be used to import a saved model and run inference on it to generate new outputs
+
+6 Several metrics are saved to a general log file in logs folder. This output is a bit of a mish-mash of much of the above, and needs better formatting
+
+
+
+Any inputs you want to use should be stored as .txt files in the inputs directory
+
+models and logs are empty folders that will contain the outputs from the gpt_R_w_toks script
+
+generations contains the outputs from generator.py
+
+-----
+
+Repeat: This is nowhere near as organised as it could be, in its current form. Use at own risk
+
+-----
+
+Karpathy's original gpt is still saved here as gpt.py, but it's better to get that from Karpathy's github, as you know you're getting the original with zero tinkering from me.
+
+Karpathy's original notes:
 
 # nanogpt-lecture
 
