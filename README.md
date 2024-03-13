@@ -8,10 +8,10 @@ Still does not initialise properly, as I've not made any changes to K's original
 
 Changes (from memory, may not be 100% accurate):
 
-1 Added byte-encoder and decoder for tekenization
+1 Added byte-encoder and decoder for tokenization
      (This, from memory, is similar to something constructed by Karpathy during the lesson, but not the same as what he saved on his github)
 
-2 Now saves model to mdels directory at end of each training run
+2 Now saves model to models directory at end of each training run
 
 3 Saves vocab, merges and encoded text for quick use in future training runs
 
