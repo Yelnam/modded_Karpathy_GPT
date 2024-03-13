@@ -1,10 +1,12 @@
+-- GENERAL NOTES --
+
 Heavily modified version of Karpathy's mini GPT, as per the notes below. This is pretty poorly documented, as I neglected to document changes as I was making them
 
 main file is now gpt_R_w_toks (GPT, my initial, with tokenisation)
 
 Still does not initialise properly, as I've not made any changes to K's original script in that regard, though I have made several other changes.
 
-
+-- CHANGES TO KARPATHY's WORK --
 
 Changes (from memory, may not be 100% accurate):
 
@@ -21,7 +23,7 @@ Changes (from memory, may not be 100% accurate):
 
 6 Several metrics are saved to a general log file in logs folder. This output is a bit of a mish-mash of much of the above, and needs better formatting
 
-
+-- DIRECTORY ORGANIZATION --
 
 Any inputs you want to use should be stored as .txt files in an "inputs" directory, itself stored in the root folder
 
@@ -34,6 +36,8 @@ Any inputs you want to use should be stored as .txt files in an "inputs" directo
 Repeat: This is nowhere near as organised as it could be, in its current form. Use at own risk
 
 -----
+
+-- ORIGINAL PROJECT ATTRIBUTIONS --
 
 Karpathy's original gpt is still saved here as gpt.py, but it's better to get that from Karpathy's github, as you know you're getting the original with zero tinkering from me.
 
